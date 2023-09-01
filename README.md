@@ -77,7 +77,3 @@ FROM products p
 JOIN orders\_products op ON p.id = op.product\_id 
 
 WHERE op.order\_id = 123;
-
-**Диаграмма для показа связи сущностей:**
-
-![](docs/conceptual-model.png)
